@@ -67,7 +67,6 @@ window = Tk()
 window.title("Pomodoro Application")
 window.config(padx=100, pady=100, bg=YELLOW)
 my_pic = PhotoImage(file="tomato.png")
-check_text = ""
 my_canvas = Canvas(width=200, height=224, bg=YELLOW, highlightthickness=0)
 my_canvas.create_image(100, 112, image=my_pic)
 timer = my_canvas.create_text(100, 130, text="00:00", fill="white", font=(FONT_NAME, 25, "bold"))
